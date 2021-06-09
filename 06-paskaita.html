@@ -6,6 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>06-paskaita</title>
     <style>
+           * {
+            box-sizing: border-box;
+        }
+        
+        .col-1 {
+            width: 8.33%;
+            
+        }
+
+        .col-2 {
+            width: 16.66%;
+
+        }
+        .col-3 {
+            width: 25%;
+
+        }
+        .col-4 {
+            width: 33.33%;
+        }
+        .col-5 {
+            width: 41.66%;
+
+        }
+        
+        .col-6 {
+            width: 50%;
+
+        }
+        .col-7 {
+            width: 58.33%;
+
+        }
+        .col-8 {
+            width: 66.66%;
+
+        }
+        .col-9 {
+            width: 75%;
+
+        }
+        .col-10 {
+            width: 83.33%;
+
+        }
+        .col-11 {
+            width: 91.66%;
+
+        }
+
+        .col-12 {
+            width: 100%;
+
+        }
         .flex-container {
             display: flex;
             flex-direction: row;
@@ -34,6 +88,31 @@
         }
         .flex-item-8 {
             width: 33.33%;
+        }
+
+        .flex-item-1 {
+            order: 1;
+        }
+        .flex-item-2 {
+            order: 2;
+        }
+        .flex-item-3 {
+            order: 3;
+        }
+        .flex-item-4 {
+            order: 4;
+        }
+        .flex-item-5 {
+            order: 5;
+        }
+        .flex-item-6 {
+            order: 6;
+        }
+        .flex-item-7 {
+            order: 7;
+        }
+        .flex-item-8 {
+            order: 8;
         }
 
         .zydra {
@@ -66,6 +145,7 @@
 </head>
 <body>
     <div class='container'>
+        <div class='col-12'>
             <h1>Flex pavyzdukas</h1>
             <div class='flex-container'>
                 <div class='flex-item-1 zalsva'><p>Tekstas 1</p></div>
@@ -76,9 +156,11 @@
                 <div class='flex-item-6 zalsva'><p>Tekstas 6</p></div>
                 <div class='flex-item-7 rozine'><p>Tekstas 7</p></div>
                 <div class='flex-item-8 zydra'><p>Tekstas 8</p></div>
-            
+                <div class='flex-item-9'><p>Tekstas 9</p></div>
+                <h1>Flex tekstas</h1>
 
             </div>
+        </div>
     </div>
 </body>
 </html>
